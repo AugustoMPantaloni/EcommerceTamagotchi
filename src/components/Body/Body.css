@@ -1,0 +1,10 @@
+.estilosTextoCentral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.estilosTextoInferior{
+    display: flex;
+    align-items: center;
+}

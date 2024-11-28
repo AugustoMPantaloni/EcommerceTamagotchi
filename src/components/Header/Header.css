@@ -1,0 +1,31 @@
+.estilosHeader {
+    display: grid;
+    width: 100%;
+    height: 12.5rem;
+    grid-template-columns: 1fr 3fr 1fr; 
+    grid-template-rows: 0.25fr 0.25fr; 
+    justify-items: center; 
+}
+
+.estilosHeader .logo-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2; 
+    grid-row: 1; 
+}
+
+
+.estilosHeader .navBar {
+    grid-column: 2; 
+    grid-row: 2; 
+    justify-content: center;
+    align-items: center;
+}
+
+.estilosHeader .iconoCarrito {
+    grid-column: 3; 
+    grid-row: 2; 
+    justify-content: center;
+    align-items: center;
+}

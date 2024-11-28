@@ -1,0 +1,14 @@
+button {
+    background: none;  
+    border: none;      
+    padding: 0;        
+}
+
+.etilosIconoCarritos{
+    width: 55px;
+    height: 55px;
+    background: none; 
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
