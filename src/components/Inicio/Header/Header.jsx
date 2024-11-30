@@ -1,7 +1,7 @@
-import Logo from "./Logo/Logo";
+import Logo from "../../Reutilizables/Logo/Logo";
 import Titulo from "./Titulo/Titulo";
-import NavBar from "./NavBar/NavBar";
-import IconoCarrito from "./IconoCarrito/IconoCarrito";
+import NavBar from "../../Reutilizables/NavBar/NavBar";
+import IconoCarrito from "../../Reutilizables/IconoCarrito/IconoCarrito";
 import "./header.css";
 
 const Header = () => {

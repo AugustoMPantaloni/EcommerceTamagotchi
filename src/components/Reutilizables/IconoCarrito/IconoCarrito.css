@@ -1,0 +1,39 @@
+button {
+    background: none;  
+    border: none;      
+    padding: 0;        
+}
+
+.etilosIconoCarritos {
+    width: 55px;
+    height: 55px;
+    background: rgba(0, 188, 212, 0.1); /* Fondo turquesa suave */
+    border: 2px solid #00bcd4; /* Borde turquesa */
+    border-radius: 50%; /* Forma circular */
+    padding: 2px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.etilosIconoCarritos svg {
+    width: 30px;
+    height: 30px;
+    fill: #F9A825; /* Color dorado para el icono */
+    transition: all 0.3s ease; /* Transición suave para el color */
+}
+
+.etilosIconoCarritos:hover {
+    background: rgba(0, 188, 212, 0.3); /* Fondo más visible al pasar el ratón */
+    transform: scale(1.1); /* Agranda un poco el icono */
+    box-shadow: 0 4px 10px rgba(0, 188, 212, 0.6); /* Sombra suave */
+}
+
+.etilosIconoCarritos:hover svg {
+    fill: #00bcd4; /* Cambia el color del icono a turquesa al pasar el ratón */
+    transform: scale(1.2); /* Agranda el icono dentro del círculo */
+}
+

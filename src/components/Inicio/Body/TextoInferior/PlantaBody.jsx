@@ -1,4 +1,4 @@
-import plantaBody from "../../../assets/PlantaBody.png"
+import plantaBody from "../../../../assets/PlantaBody.png"
 import "./PlantaBody.css"
 
 const PlantaBody = () =>{

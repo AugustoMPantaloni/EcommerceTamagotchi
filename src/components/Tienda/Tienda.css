@@ -1,0 +1,8 @@
+.estiloTienda {
+    background: linear-gradient(135deg, #a8e063, #6dbf4a);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    color: #ffffff;
+    padding: 20px;
+}

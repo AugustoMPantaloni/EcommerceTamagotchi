@@ -1,7 +1,7 @@
 import "./TextoInferior.css";
 
 const TextoInferior = ({classname}) =>{
-    return <ul>
+    return <ul className="estilosTextoInferiorInicio">
                 <li>Tienda de Plantas Virtuales: Explora nuestra variedad de plantas, cada una con sus características, precios y niveles de dificultad. Desde cactus hasta bonsáis, tenemos algo para todos.</li>
                 <li>Carrito de Compras: Añade tus plantas favoritas al carrito y compra fácilmente. ¡Haz crecer tu colección de plantas virtuales sin salir de casa!</li>
                 <li>Dashboard de Plantas: Accede a tu propio jardín virtual, donde podrás ver todas las plantas que has adquirido. Controla su salud, riégalas, dales luz, y personaliza su entorno.</li>
