@@ -1,18 +1,18 @@
 .estilosTituloInicio {
-    font-family: "Marhey", sans-serif; /* Mantengo la caligrafía */
+    font-family: "Marhey", sans-serif; 
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 3.125rem; /* Mantengo el tamaño de la fuente */
-    color: #F9A825; /* Mantengo el color dorado */
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6), 0 0 10px rgba(255, 255, 255, 0.8), 0 0 15px rgba(0, 255, 255, 1); /* Sombra de texto más prominente */
-    letter-spacing: 3px; /* Aumento el espaciado para darle un toque más elegante */
+    font-size: 3.125rem; 
+    color: #F9A825; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6), 0 0 10px rgba(255, 255, 255, 0.8), 0 0 15px rgba(0, 255, 255, 1); 
+    letter-spacing: 3px; 
     margin: 20px 0; 
     text-align: center; 
-    transition: all 0.3s ease; /* Transición suave para interactividad */
+    transition: all 0.3s ease; 
 }
 
 .estilosTituloInicio:hover {
-    transform: scale(1.05); /* Efecto hover para agrandar ligeramente */
+    transform: scale(1.05); 
 
 }

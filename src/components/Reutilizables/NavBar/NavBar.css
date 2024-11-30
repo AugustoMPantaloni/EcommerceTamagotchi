@@ -1,39 +1,39 @@
 nav {
     display: flex;
     gap: 20px;
-    justify-content: center; /* Centra los enlaces si es necesario */
+    justify-content: center; 
 }
 
 nav a {
     text-decoration: none;
     color: #ffffff;
-    background: linear-gradient(135deg, #6dbf4a, #a8c279); /* Degradado similar a las cards */
+    background: linear-gradient(135deg, #6dbf4a, #a8c279); 
     padding: 15px 30px;
-    border-radius: 20px; /* Bordes redondeados */
+    border-radius: 20px; 
     font-size: 16px;
     font-weight: bold;
     text-align: center;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4), /* Sombra base */
-                0 0 10px rgba(108, 191, 74, 0.5), /* Sombra neón sutil */
-                0 0 20px rgba(108, 191, 74, 0.4); /* Sombra más suave */
-    border: 2px solid rgba(108, 191, 74, 0.6); /* Bordes suaves con un toque de neón */
-    font-family: 'Orbitron', sans-serif; /* Fuente igual a las cards */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4), 
+                0 0 10px rgba(108, 191, 74, 0.5), 
+                0 0 20px rgba(108, 191, 74, 0.4); 
+    border: 2px solid rgba(108, 191, 74, 0.6); 
+    font-family: 'Orbitron', sans-serif; 
     letter-spacing: 1.5px;
-    transition: all 0.3s ease; /* Transiciones suaves */
-    backdrop-filter: blur(5px); /* Efecto de vidrio similar */
+    transition: all 0.3s ease; 
+    backdrop-filter: blur(5px); 
 }
 
 nav a:hover {
-    background: linear-gradient(135deg, #4caf50, #6dbf4a); /* Colores más vivos */
-    transform: translateY(-4px); /* Efecto de elevación */
-    box-shadow: 0 15px 40px rgba(0, 255, 255, 0.4), /* Resaltado */
-                0 0 15px rgba(108, 255, 108, 0.6), /* Neón más brillante al pasar el mouse */
-                0 0 30px rgba(108, 255, 108, 0.5); /* Brillo intenso */
+    background: linear-gradient(135deg, #4caf50, #6dbf4a); 
+    transform: translateY(-4px); 
+    box-shadow: 0 15px 40px rgba(0, 255, 255, 0.4), 
+                0 0 15px rgba(108, 255, 108, 0.6), 
+                0 0 30px rgba(108, 255, 108, 0.5); 
 }
 
 nav a:active {
-    background: linear-gradient(135deg, #387A28, #4caf50); /* Colores más oscuros */
-    transform: scale(0.95); /* Efecto de clic */
-    box-shadow: inset 0 4px 10px rgba(0, 0, 0, 0.3), /* Efecto presionado */
-                0 0 10px rgba(108, 255, 108, 0.5); /* Neón reducido al hacer clic */
+    background: linear-gradient(135deg, #387A28, #4caf50); 
+    transform: scale(0.95); 
+    box-shadow: inset 0 4px 10px rgba(0, 0, 0, 0.3), 
+                0 0 10px rgba(108, 255, 108, 0.5); 
 }
