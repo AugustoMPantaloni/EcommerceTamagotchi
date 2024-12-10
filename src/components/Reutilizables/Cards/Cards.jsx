@@ -1,8 +1,8 @@
 import "./Cards.css"
 
-const Cards = ({ imagen, alt, descripcion, precio, nombre }) => {
+const Cards = ({ id, imagen, alt, descripcion, precio, nombre }) => {
     return (
-        <div className="card">
+        <div className="card" id={`Producto=${id}`}>
             <img src={imagen} alt={alt} className="card-img" />
             <div className="card-body">
                 <h5 className="card-title">{nombre}</h5> 

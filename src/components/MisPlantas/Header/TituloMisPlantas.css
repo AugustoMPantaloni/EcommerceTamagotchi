@@ -1,4 +1,4 @@
-.estilosTituloTienda {
+.estilosTituloMisPlantas {
     font-family: "Marhey", sans-serif; 
     font-optical-sizing: auto;
     font-weight: 400;
@@ -11,7 +11,7 @@
     transition: all 0.3s ease; 
 }
 
-.estilosSubTituloTienda {
+.estilosSubTituloMisPlantas {
     font-family: "Marhey", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -22,4 +22,10 @@
     text-align: center;
     line-height: 1.6; 
     transition: all 0.3s ease;
+}
+
+.estilosCarritoMisPlantas{
+    position: absolute;
+    padding-left: 106.25rem;
+    padding-bottom: 6.25rem;
 }

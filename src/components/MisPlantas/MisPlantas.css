@@ -1,5 +1,5 @@
-.estilosInicio{
-    background-image: url('/src/assets/fondoUno.png');
+.estiloMisPlantas {
+    background-image: url("/src/assets/fondoUno.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

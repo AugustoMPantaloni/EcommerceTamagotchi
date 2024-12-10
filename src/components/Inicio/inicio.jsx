@@ -5,9 +5,9 @@ import "./Inicio.css"
 const Inicio = () =>{
     return (
         <>
-        <div className="estilosTienda">
-            <Header></Header>
-            <Body></Body>
+        <div className="estilosInicio">
+            <Header/>
+            <Body/>
         </div>
         </>
     )
