@@ -1,12 +1,14 @@
 import { Link } from "react-router-dom"; 
 import "./NavBar.css";
+import IconoCarrito from "../IconoCarrito/IconoCarrito";
 
-const NavBar = ({ className }) => {
+const NavBar = () => {
     return (
-        <nav className={className}>
+        <nav className="estilosNavBar">
             <Link to="/">Inicio</Link> 
-            <Link to="/tienda">Tienda</Link> 
-            <Link to="/mis-plantas">MisPlantas</Link> 
+            <Link to="/Tienda">Tienda</Link> 
+            <Link to="/MisPlantas">MisPlantas</Link> 
+            <IconoCarrito/>
         </nav>
     );
 };

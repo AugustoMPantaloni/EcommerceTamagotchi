@@ -1,8 +1,9 @@
 import "./Tienda.css"
 import TituloTienda from "./Header/TituloTienda"
 import NavBar from "../Reutilizables/NavBar/NavBar"
-import IconoCarrito from "../Reutilizables/IconoCarrito/IconoCarrito"
-import Productos from "./Productos/Porductos"
+import Productos from "./Productos/Productos"
+import Categorias from "./Categorias/Categorias"
+
 
 const Tienda = () => {
     return (
@@ -10,7 +11,9 @@ const Tienda = () => {
             <div>
                 <TituloTienda/>
                 <NavBar/>
-                <IconoCarrito className="estilosCarritoTienda"/>
+            </div>
+            <div className="posicionamientoCategoria">
+                <Categorias/>
             </div>
             <div className="estiloProductos">
                 <Productos/>
